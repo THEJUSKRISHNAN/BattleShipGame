@@ -76,3 +76,31 @@ h1 {
 #btn:hover {
 cursor: pointer;
 }
+
+@media (max-width:600px) {
+  .dis {
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .container {
+    grid-template-columns: 4rem 4rem 4rem 4rem;
+    grid-template-rows: 4rem 4rem 4rem 4rem;
+  }
+
+  #btn {
+    font-size: 1rem;
+  }
+
+  .imgset {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover; 
+}
+  #result {
+ font-size: 2rem;
+  text-align: center;
+}
+}

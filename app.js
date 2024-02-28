@@ -12,7 +12,7 @@ para1.forEach(element => {
         if(!element.children[0])
         {
             let img = document.createElement('img');
-            img.src="https://mediaproxy.salon.com/width/1200/https://media.salon.com/2021/02/rough-seas-0225211.jpg";
+            img.src="./image/sea.jpg";
             img.classList.add('imgset');
             element.appendChild(img);
             i=i+1;
@@ -36,7 +36,7 @@ para2.forEach(element => {
         if(!element.children[0])
         {
             let img = document.createElement('img');
-            img.src="https://www.hdwallpaper.nu/wp-content/uploads/2016/12/cruise_ship-1.jpg";
+            img.src="./image/ship.jpg";
             img.classList.add('imgset');
             element.appendChild(img);
             i++;
